@@ -1,6 +1,7 @@
 /*
-*A script that drop database from mysql server
+*A script that list database in the database mysql
 */
---  DROP DATABASE IF IT EXIST
-DROP DATABASE IF EXISTS hbtn_0c_0;
+--  SHOW TABLES
+USE mysql;
+SHOW TABLES;
 -- End of script
