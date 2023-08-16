@@ -1,7 +1,6 @@
 /*
-*Write a script that lists all the tables of a database in your MySQL server
+*A script that drop database from mysql server
 */
--- SHOW ALL TABLES IN THE DATABASE
-USE mysql;
-SHOW TABLES;
--- End of scripts
+--  DROP DATABASE IF IT EXIST
+DROP DATABASE IF EXISTS hbtn_0c_0;
+-- End of script
