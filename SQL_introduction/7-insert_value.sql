@@ -1,0 +1,7 @@
+/*
+*TASK :INSERT INTO ROW ROW THE FOLLOWING DATA OF FIRST_TABLE ID=89 ,NAME="HOLBERTON"
+*/
+-- INSERT INTO FIRST_TABLE
+INSERT INTO first_table(id,name)
+VALUES(89,"Holberton School");
+-- End of script
