@@ -3,8 +3,11 @@
 -- The user_0d_1 password should be set to user_0d_1_pwd
 -- If the user user_0d_1 already exists, your script should not fail
 
-CREATE USER IF NOT EXISTS 'user_0d_1'@'localhost';
-GRANT ALL PRIVILEGES ON *.* TO 'user_0d_1'@'localhost';
+-- Create user if not exists
+CREATE USER IF NOT EXISTS 'user_od_1'@'localhost' IDENTIFIED BY 'user_od_pwd';
 
--- Now you can list privileges for both users
-SHOW GRANTS FOR 'user_0d_1'@'localhost';
+-- Grant all privileges to the user
+GRANT ALL PRIVILEGES ON *.* TO 'user_od_1'@'localhost';
+
+-- Reload privileges
+FLUSH PRIVILEGES;
